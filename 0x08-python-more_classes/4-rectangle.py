@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-"""This class defines a rectangle class"""
+"""This class define rectangle class"""
 
 
 class Rectangle:
@@ -44,13 +44,13 @@ class Rectangle:
 
     def area(self):
         """
-        Returns: Area of the rectangle
+        Returns: Area of our rectangle
         """
         return self.__width * self.__height
 
     def perimeter(self):
         """
-        Returns: perimeter of the rectangle object
+        Returns: perimeter of our rectangle object
         """
         if self.__height == 0 or self.__width == 0:
             return 0
@@ -59,7 +59,7 @@ class Rectangle:
 
     def __str__(self):
         """
-        Returns: # rep the rectangle
+        Returns: # rep my rectangle
         """
         if self.__height == 0 or self.__width == 0:
             return ''
@@ -74,6 +74,6 @@ class Rectangle:
 
     def __repr__(self):
         """
-        Returns: str rep of the rectangle
+        Returns: str rep of my rectangle
         """
         return f'Rectangle({str(self.__width)}, {str(self.__height)})'

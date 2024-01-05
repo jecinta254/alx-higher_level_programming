@@ -1,9 +1,9 @@
 #!/usr/bin/python3
-"""Defines a Rectangle class."""
+"""Defining my  rectangle class."""
 
 
 class Rectangle:
-    """Represent a rectangle.
+    """Representin my rectangle.
 
     Attributes:
         number_of_instances (int): The number of Rectangle instances.

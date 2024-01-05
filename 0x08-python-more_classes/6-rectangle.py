@@ -1,9 +1,9 @@
 #!/usr/bin/python3
-"""This class defines a rectangle class"""
+"""This class will defines my rectangle"""
 
 
 class Rectangle:
-    """This rep a rectangle"""
+    """This rep my rectangle"""
     number_of_instances = 0
     print_symbol = '#'
 
